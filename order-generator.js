@@ -65,7 +65,7 @@ const Menu = {
 		emoji: '🚽',
 		items: ["Fries", "Cream Pie", "Rimjob", "Water", "Milkshake"],
 	},
-	"Mudershake": {
+	"Murdershake": {
 		price: 165,
 		emoji: '⛽',
 		items: ["Fries", "Fries", "Rimjob", "Milkshake", "Heartstopper"],
