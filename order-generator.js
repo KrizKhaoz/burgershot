@@ -72,7 +72,7 @@ const Menu = {
 	},
 	"La comida blanca": {
 		price: 740,
-		emoji: '🤑',
+		emoji: '👩‍🦳',
 		items: ["Heartstopper", "Heartstopper", "Heartstopper", "Heartstopper", "Heartstopper", "Fries","Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Milkshake", "Milkshake", "Milkshake", "Milkshake", "Milkshake"],
 	},
 	"High Roller": {
