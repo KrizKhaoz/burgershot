@@ -147,7 +147,7 @@ const Menu = {
 	"Murder Meal": {
 		max: 5,
 		fileRenameException: true,
-		price: 101,
+		price: 115,
 		noDiscount: true,
 		items: ["Murder Meal"],
 	},
