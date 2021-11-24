@@ -226,7 +226,7 @@ const Menu = {
 		lastItem: true,
 		items: ["Toy"],
 	},
-	"Bloody Fingers": {
+	, "Bloody Fingers": {
 		price: 40,
 		max: 5,
 		noDiscount: true,
@@ -237,7 +237,7 @@ const Menu = {
 
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy"
+	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers"
 ];
 
 const buttons = {
