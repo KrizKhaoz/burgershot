@@ -237,7 +237,7 @@ const Menu = {
 
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers"
+	"Fries", "Soda", "Rimjob", "Cream Pie", "Bloody Fingers", "Milkshake", "Toy"
 ];
 
 const buttons = {
