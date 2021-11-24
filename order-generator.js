@@ -19,7 +19,7 @@ const Menu = {
 	},
 	// Variable combos:
 	"Running Man": {
-		price: 63,
+		price: 125,
 		emoji: '🏃',
 		items: ["Fries", "Fries", "Rimjob", "Rimjob", "Soda"],
 	},
@@ -34,9 +34,9 @@ const Menu = {
 		items: ["Milkshake", "Milkshake", "Cream Pie", "Cream Pie"],
 	},
 	"Salty Seaman": {
-		price: 50,
+		price: 95,
 		emoji: '🦷',
-		items: ["Fries", "Fries", "Fries", "Water", "Water", "Water"],
+		items: ["Fries", "Fries", "Water", "Water"],
 	},
 	"Glory to the burger": {
 		price: 150,
@@ -147,28 +147,28 @@ const Menu = {
 	"Murder Meal": {
 		max: 5,
 		fileRenameException: true,
-		price: 115,
+		price: 250,
 		noDiscount: true,
 		items: ["Murder Meal"],
 	},
 	"Heartstopper Meal": {
-		price: 74,
+		price: 175,
 		items: ["Heartstopper", "Fries", "Soda"],
 	},
 	"Money Shot Meal": {
-		price: 74,
+		price: 160,
 		items: ["Money Shot", "Fries", "Soda"],
 	},
 	"Torpedo Meal": {
-		price: 74,
+		price: 165,
 		items: ["Torpedo", "Fries", "Soda"],
 	},
 	"Bleeder Meal": {
-		price: 74,
+		price: 165,
 		items: ["Bleeder", "Fries", "Soda"],
 	},
 	"Meat Free Meal": {
-		price: 74,
+		price: 150,
 		items: ["Meat Free", "Fries", "Soda"],
 	},
 	// Individual Items:
@@ -176,52 +176,59 @@ const Menu = {
 		header: true,
 	},
 	"Heartstopper": {
-		price: 45,
+		price: 75,
 		items: ["Heartstopper"],
 	},
 	"Money Shot": {
-		price: 43,
+		price: 70,
 		items: ["Money Shot"],
 	},
 	"Torpedo": {
-		price: 43,
+		price: 70,
 		items: ["Torpedo"],
 	},
 	"Bleeder": {
-		price: 43,
+		price: 70,
 		items: ["Bleeder"],
 	},
 	"Meat Free": {
-		price: 41,
+		price: 65,
 		items: ["Meat Free"],
 	},
 	"Water": {
-		price: 10,
+		price: 45,
 		items: ["Water"],
 	},
 	"Soda": {
-		price: 20,
+		price: 45,
 		items: ["Soda"]
 	},
 	"Milkshake": {
-		price: 30,
+		price: 48,
 		items: ["Milkshake"],
 	},
 	"Fries": {
-		price: 15,
+		price: 55,
 		items: ["Fries"],
 	},
 	"Rimjob": {
-		price: 10,
+		price: 45,
 		items: ["Rimjob"],
 	},
 	"Cream Pie": {
-		price: 10,
+		price: 33,
 		items: ["Cream Pie"],
 	},
 	"Toy": {
-		price: 101,
+		price: 202,
 		max: 10,
+		noDiscount: true,
+		lastItem: true,
+		items: ["Toy"],
+	},
+	"Bloody Fingers": {
+		price: 40,
+		max: 5,
 		noDiscount: true,
 		lastItem: true,
 		items: ["Toy"],
