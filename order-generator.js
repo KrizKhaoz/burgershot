@@ -4,7 +4,7 @@ let darkmodeState;
 
 const Settings = {
 	'MAIN_TABLE_WIDTH': 3,
-	'COMBO_TABLE_WIDTH': 2,
+	'COMBO_TABLE_WIDTH': 3,
 	'DEFAULT_MAX_CAP': 100,
 }
 
@@ -14,80 +14,80 @@ const Menu = {
 		header: true,
 	},
 	"Rimjob Combo": {
-		price: 33,
+		price: 270,
 		items: ["Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob"],
 	},
 	// Variable combos:
 	"Running Man": {
-		price: 125,
+		price: 245,
 		emoji: '🏃',
 		items: ["Fries", "Fries", "Rimjob", "Rimjob", "Soda"],
 	},
 	"Sugar Rush": {
-		price: 38,
+		price: 123,
 		emoji: '🍬',
 		items: ["Soda", "Cream Pie", "Rimjob"],
 	},
 	"Sweet Tooth": {
-		price: 63,
+		price: 162,
 		emoji: '🧂',
 		items: ["Milkshake", "Milkshake", "Cream Pie", "Cream Pie"],
 	},
 	"Salty Seaman": {
-		price: 95,
+		price: 200,
 		emoji: '🦷',
 		items: ["Fries", "Fries", "Water", "Water"],
 	},
 	"Glory to the burger": {
-		price: 150,
+		price: 350,
 		emoji: '👑',
 		items: ["Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Meat Free"],
 	},
 	"Soyboy": {
-		price: 40,
+		price: 210,
 		emoji: '😭',
 		items: ["Meat Free", "Fries", "Water", "Water",],
 	},
 	// Sunday
 	"Buck Fever": {
-		price: 73,
+		price: 163,
 		emoji: '🦌',
 		items: ["Bleeder", "Milkshake", "Rimjob"],
 	},
 	"The Big Catch": {
-		price: 43,
+		price: 176,
 		emoji: '🎣',
 		items: ["Cream Pie", "Cream Pie", "Fries", "Fries"],
 	},
 	// Monday
 	"Royal Flush": {
-		price: 63,
+		price: 226,
 		emoji: '🚽',
 		items: ["Fries", "Cream Pie", "Rimjob", "Water", "Milkshake"],
 	},
 	"Murdershake": {
-		price: 165,
+		price: 278,
 		emoji: '🤑',
 		items: ["Fries", "Fries", "Rimjob", "Milkshake", "Heartstopper"],
 	},
 	"The Miller Special": {
-		price: 210,
+		price: 516,
 		emoji: '👮',
 		items: ["Heartstopper", "Heartstopper", "Milkshake", "Milkshake", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob"],
 	},
 	"La comida blanca": {
-		price: 740,
+		price: 1435,
 		emoji: '👩‍🦳',
 		items: ["Heartstopper", "Heartstopper", "Heartstopper", "Heartstopper", "Heartstopper", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Milkshake", "Milkshake", "Milkshake", "Milkshake", "Milkshake"],
 	},
 	"High Roller": {
-		price: 88,
+		price: 185,
 		emoji: '🤑',
 		items: ["Money Shot", "Money Shot", "Soda"],
 	},
 	// Tuesday
 	"Cream Getaway": {
-		price: 70,
+		price: 191,
 		emoji: '🏁',
 		items: ["Fries", "Fries", "Cream Pie", "Milkshake"],
 	},
@@ -98,45 +98,45 @@ const Menu = {
 	},
 	// Wednesday
 	"Salad Dodger": {
-		price: 48,
+		price: 230,
 		emoji: '🥗',
 		items: ["Soda", "Soda", "Rimjob", "Rimjob"],
 	},
 	"Vegan Slaughter": {
-		price: 84,
+		price: 201,
 		emoji: '🥬',
 		items: ["Meat Free", "Fries", "Milkshake", "Cream Pie"],
 	},
 	// Thursday
 	"Ice Screamer": {
-		price: 48,
+		price: 136,
 		emoji: '🍦',
 		items: ["Cream Pie", "Fries", "Milkshake"],
 	},
 	"Brain Bleeder": {
-		price: 94,
+		price: 230,
 		emoji: '🥶',
 		items: ["Bleeder", "Bleeder", "Rimjob", "Rimjob"],
 	},
 	// Friday
 	"A Taste of Greece": {
-		price: 48,
+		price: 160,
 		emoji: '🌺',
 		items: ["Torpedo", "Water", "Water"],
 	},
 	"Jugular Jungle": {
-		price: 98,
+		price: 261,
 		emoji: '🌴',
 		items: ["Fries", "Fries", "Fries", "Milkshake", "Milkshake"],
 	},
 	// Saturday
 	"A Salt & Battery": {
-		price: 58,
+		price: 210,
 		emoji: '🧂',
 		items: ["Fries", "Fries", "Fries", "Soda"],
 	},
 	"Lime Served": {
-		price: 85,
+		price: 184,
 		emoji: '🕑',
 		items: ["Money Shot", "Cream Pie", "Cream Pie", "Milkshake"],
 	},
@@ -156,19 +156,19 @@ const Menu = {
 		items: ["Heartstopper", "Fries", "Soda"],
 	},
 	"Money Shot Meal": {
-		price: 160,
+		price: 170,
 		items: ["Money Shot", "Fries", "Soda"],
 	},
 	"Torpedo Meal": {
-		price: 165,
+		price: 170,
 		items: ["Torpedo", "Fries", "Soda"],
 	},
 	"Bleeder Meal": {
-		price: 165,
+		price: 170,
 		items: ["Bleeder", "Fries", "Soda"],
 	},
 	"Meat Free Meal": {
-		price: 150,
+		price: 160,
 		items: ["Meat Free", "Fries", "Soda"],
 	},
 	// Individual Items:
@@ -223,26 +223,33 @@ const Menu = {
 		price: 202,
 		max: 10,
 		noDiscount: true,
-		lastItem: true,
+		lastItem: false,
 		items: ["Toy"],
 	},
-	, "Bloody Fingers": {
+	 "Bloody Fingers": {
 		price: 40,
 		max: 5,
 		noDiscount: true,
-		lastItem: true,
-		items: ["Toy"],
-	}
+		lastItem: false,
+		items: ["Bloody Fingers"],
+	},
+	"Salad": {
+	   price: 55,
+	   max: 5,
+	   noDiscount: true,
+	   lastItem: true,
+	   items: ["Salad"],
+   }
 };
 
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Bloody Fingers", "Milkshake", "Toy"
+	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad"
 ];
 
 const buttons = {
 	"buffer": {
-		html: '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'
+		html: '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'
 	},
 	"new_order": {
 		html: '<div class="btn" onclick="newOrder();" title="Clear current order"><i class="fa fa-refresh" aria-hidden="true"></i> New Order</div>',
