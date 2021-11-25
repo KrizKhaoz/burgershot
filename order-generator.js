@@ -237,14 +237,28 @@ const Menu = {
 	   price: 55,
 	   max: 5,
 	   noDiscount: true,
-	   lastItem: true,
+	   lastItem: false,
 	   items: ["Salad"],
-   }
+   },
+	"Orange Juice": {
+	   price: 45,
+	   max: 5,
+	   noDiscount: true,
+	   lastItem: false,
+	   items: ["Orange Juice"],
+   },
+   "Lemonade": {
+	  price: 45,
+	  max: 5,
+	  noDiscount: true,
+	  lastItem: true,
+	  items: ["Orange Juice"],
+  }
 };
 
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad"
+	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade"
 ];
 
 const buttons = {
