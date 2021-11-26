@@ -140,12 +140,18 @@ const Menu = {
 		emoji: '🕑',
 		items: ["Money Shot", "Cream Pie", "Cream Pie", "Milkshake"],
 	},
+	"Baz Special": {
+		price: 265,
+		max: 2,
+		emoji: '🙂',
+		items: ["Fries", "Fries", "Fries", "Fries", "Soda"],
+	},
 	// Burger Meals:
 	"Burger Meals:": {
 		header: true,
 	},
 	"Murder Meal": {
-		max: 5,
+		max: 4,
 		fileRenameException: true,
 		price: 250,
 		noDiscount: true,
@@ -251,14 +257,21 @@ const Menu = {
 	  price: 45,
 	  max: 5,
 	  noDiscount: true,
-	  lastItem: true,
+	  lastItem: false,
 	  items: ["Orange Juice"],
-  }
+  },
+  "Lucky Rings": {
+	 price: 55,
+	 max: 5,
+	 noDiscount: true,
+	 lastItem: false,
+	 items: ["Luck Rings"],
+ }
 };
 
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade"
+	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings"
 ];
 
 const buttons = {
