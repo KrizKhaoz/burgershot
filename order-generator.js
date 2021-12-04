@@ -266,12 +266,18 @@ const Menu = {
 	 noDiscount: true,
 	 lastItem: false,
 	 items: ["Luck Rings"],
- }
+ },
+ "BurgerBits": {
+	price: 75,
+	max: 5,
+	noDiscount: true,
+	lastItem: true,
+	items: ["Burger Bits"],
+}
 };
-
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings"
+	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "BurgerBits"
 ];
 
 const buttons = {
