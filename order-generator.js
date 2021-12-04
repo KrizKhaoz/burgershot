@@ -272,19 +272,19 @@ const Menu = {
 	max: 5,
 	noDiscount: true,
 	lastItem: false,
-	items: ["Burger Bits"],
+	items: ["BurgerBits"],
 },
 "10 Pack BurgerBits": {
    price: 375,
    max: 5,
    noDiscount: true,
    lastItem: true,
-   items: ["10 Pack Burger Bits"],
+   items: ["10 Pack BurgerBits"],
 }
 };
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "BurgerBits", "10 Pack Burger Bits"
+	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "BurgerBits", "10 Pack BurgerBits"
 ];
 
 const buttons = {
