@@ -273,14 +273,14 @@ const Menu = {
 	noDiscount: true,
 	lastItem: false,
 	items: ["BurgerBits"],
-},
-"10 Pack BurgerBits": {
-   price: 375,
-   max: 5,
-   noDiscount: true,
-   lastItem: true,
-   items: ["10 Pack BurgerBits"],
-}
+}//,
+//"10 Pack BurgerBits": {
+ //  price: 1375,
+ //  max: 1,
+ //  noDiscount: true,
+  // lastItem: true,
+   //items: ["10 Pack BurgerBits"],
+//}
 };
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
