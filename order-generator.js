@@ -81,7 +81,7 @@ const Menu = {
 		items: ["Heartstopper", "Heartstopper", "Heartstopper", "Heartstopper", "Heartstopper", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Milkshake", "Milkshake", "Milkshake", "Milkshake", "Milkshake"],
 	},
 	"High Roller": {
-		price: 185,
+		price: 685,
 		emoji: '🤑',
 		items: ["Money Shot", "Money Shot", "Soda"],
 	},
@@ -135,11 +135,11 @@ const Menu = {
 		emoji: '🧂',
 		items: ["Fries", "Fries", "Fries", "Soda"],
 	},
-	"Lime Served": {
-		price: 184,
-		emoji: '🕑',
-		items: ["Money Shot", "Cream Pie", "Cream Pie", "Milkshake"],
-	},
+	//"Lime Served": {
+	//	price: 184,
+	//	emoji: '🕑',
+	//	items: ["Money Shot", "Cream Pie", "Cream Pie", "Milkshake"],
+	//},
 	"Baz Special": {
 		price: 265,
 		max: 2,
@@ -162,7 +162,7 @@ const Menu = {
 		items: ["Heartstopper", "Fries", "Soda"],
 	},
 	"Money Shot Meal": {
-		price: 170,
+		price:375,
 		items: ["Money Shot", "Fries", "Soda"],
 	},
 	"Torpedo Meal": {
@@ -186,7 +186,7 @@ const Menu = {
 		items: ["Heartstopper"],
 	},
 	"Money Shot": {
-		price: 70,
+		price: 300,
 		items: ["Money Shot"],
 	},
 	"Torpedo": {
