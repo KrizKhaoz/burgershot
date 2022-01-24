@@ -70,16 +70,16 @@ const Menu = {
 		emoji: '🤑',
 		items: ["Fries", "Fries", "Rimjob", "Milkshake", "Heartstopper"],
 	},
-	"The Miller Special": {
-		price: 516,
-		emoji: '👮',
-		items: ["Heartstopper", "Heartstopper", "Milkshake", "Milkshake", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob"],
-	},
-	"La comida blanca": {
-		price: 1435,
-		emoji: '👩‍🦳',
-		items: ["Heartstopper", "Heartstopper", "Heartstopper", "Heartstopper", "Heartstopper", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Milkshake", "Milkshake", "Milkshake", "Milkshake", "Milkshake"],
-	},
+	//"The Miller Special": {
+	//	price: 516,
+	//	emoji: '👮',
+	//	items: ["Heartstopper", "Heartstopper", "Milkshake", "Milkshake", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob"],
+	//},
+	//"La comida blanca": {
+	//	price: 1435,
+	//	emoji: '👩‍🦳',
+	//	items: ["Heartstopper", "Heartstopper", "Heartstopper", "Heartstopper", "Heartstopper", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Milkshake", "Milkshake", "Milkshake", "Milkshake", "Milkshake"],
+	//},
 	"High Roller": {
 		price: 685,
 		emoji: '🤑',
