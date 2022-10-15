@@ -232,13 +232,6 @@ const Menu = {
 		lastItem: false,
 		items: ["Toy"],
 	},
-	 "Bloody Fingers": {
-		price: 40,
-		max: 5,
-		noDiscount: false,
-		lastItem: false,
-		items: ["Bloody Fingers"],
-	},
 	"Salad": {
 	   price: 55,
 	   max: 5,
@@ -259,21 +252,7 @@ const Menu = {
 	  noDiscount: false,
 	  lastItem: false,
 	  items: ["Orange Juice"],
-  },
-  "Lucky Rings": {
-	 price: 55,
-	 max: 5,
-	 noDiscount: false,
-	 lastItem: false,
-	 items: ["Lucky Rings"],
- },
- "BurgerBits": {
-	price: 75,
-	max: 5,
-	noDiscount: false,
-	lastItem: false,
-	items: ["BurgerBits"],
-}//,
+  }
 //"10 Pack BurgerBits": {
  //  price: 1375,
  //  max: 1,
